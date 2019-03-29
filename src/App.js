@@ -7,6 +7,7 @@ class App extends Component {
     return (
       <div className="App">
         <header className="App-header">
+        Hello
           <img src={logo} className="App-logo" alt="logo" />
           <p>
             Edit <code>src/App.js</code> and save to reload.
@@ -17,7 +18,7 @@ class App extends Component {
             target="_blank"
             rel="noopener noreferrer"
           >
-            Learn React
+            Hello World!
           </a>
         </header>
       </div>
