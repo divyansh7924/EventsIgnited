@@ -37,6 +37,7 @@ class Message extends React.Component{
                     <h2>
                         Hi, We organise Great Events
                     </h2>
+                    <button class="btn btn-primary navbar-btn">Know more</button>
                     <img src="ill1.svg" className="illustration"/>
                 </div>
             </div>
