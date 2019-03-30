@@ -43,21 +43,71 @@
 
 .row {
   display: flex;
-
 }
 
 .column {
   flex: 33.33%;
   padding: 20px;
   background: #3b8fed;
-
 }
 
 .features{
   width: 50%;
-  position: absolute;
-left:50%;
-transform:translate(-50%);
+  position: relative;
+  left:50%;
+  transform:translate(-50%);
+}
+
+.categories{
+  top: 50%;
+  width: 100%;
+  position: relative;
+  left:50%;
+  transform:translate(-50%);
+  background: #3b8fed;
+}
+
+.categories-column-1{
+  display: inline-flexbox;
+  flex: 33.33%;
+  padding: 40px;
+  margin-top: 10%;
+  margin-left: 4%;
+  position: relative;
+}
+
+.categories-column-2{
+  flex: 33.33%;
+  padding: 40px;
+  margin-left: 20%;
+  position: relative;
+}
+
+.circle {
+  /* position: relative;
+  display: inline-block;
+  width: 100%;
+  height: 0;
+  padding: 50% 0;
+  border-radius: 50%;
+  background: #ffffff;
+  color: white;
+  font-family: Helvetica, Arial Black, sans;
+  font-size: 48px;
+  text-align: center; */
+  width: 107px;
+  height: 107px;
+  background: white;
+  border-radius: 60%;
+  top: 10%;
+  position: relative;
+  margin-left: 80px;
+  margin-right: 260px;
+}
+
+.circle.end{
+  float: right;
+  margin-right: 100px;
 }
 
 .illustration{
@@ -71,7 +121,18 @@ transform:translate(-50%);
   float: right;
 }
 
-.
+.illustration-categories{
+  width: 64px;
+  height: 64px;
+  display: block;
+  text-indent: -9999px;
+  background-size: 70px 48px;
+  background-repeat: no-repeat;
+  z-index: 1111;
+  position: absolute;
+  top: 0; bottom:0; left: 0; right:0;
+  margin: auto;
+}
 
 @keyframes App-logo-spin {
   from {
@@ -80,4 +141,22 @@ transform:translate(-50%);
   to {
     transform: rotate(360deg);
   }
+}
+
+
+.vert-move-delay {
+  -webkit-animation: mover 2s infinite  alternate;
+  animation: mover 2s infinite  alternate;
+}
+.vert-move-delays {
+  -webkit-animation: mover 3s infinite  alternate;
+  animation: mover 3s infinite  alternate;
+}
+@-webkit-keyframes mover {
+  0% { transform: translateY(0); }
+  100% { transform: translateY(-10px); }
+}
+@keyframes mover {
+  0% { transform: translateY(0); }
+  100% { transform: translateY(-10px); }
 }
