@@ -37,7 +37,7 @@ class Message extends React.Component{
                         Hi, We organise Great Events
                     </h2>
                     <button class="btn btn-primary navbar-btn">Know more</button>
-                    <img className="illustration"/>
+                    <img src="ill1.svg" className="illustration"/>
                 </div>
                 <div className="features">
                     <div className="row">
@@ -50,6 +50,22 @@ class Message extends React.Component{
                         <div class="column">
                             Hello3
                         </div>
+                    </div>
+                </div>
+                <div className="howitwork">
+                    <div id="part1">
+                        <img src="ill1.svg" className="illustration"/>
+                    </div>
+                    <div id="part2">
+                        <p id="step1">
+                            Book Us
+                        </p>
+                        <p id="step2">
+                            We Do All Planing In You Budget
+                        </p>
+                        <p id="step3">
+                            Enjoy !
+                        </p>
                     </div>
                 </div>
                 <div className="categories">
