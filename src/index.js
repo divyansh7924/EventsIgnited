@@ -2,12 +2,6 @@ import React from 'react'
 import ReactDOM from 'react-dom'
 import './App.css';
 
-var style = {
-    backgroundColor: 'orange',
-    color: 'white',
-    fontFamily: 'Arial'
-}
-
 let message = {
     title: "EventsIgnited",
     minutes: 9
@@ -40,6 +34,20 @@ class Message extends React.Component{
                     <button class="btn btn-primary navbar-btn">Know more</button>
                     <img src="ill1.svg" className="illustration"/>
                 </div>
+                <div className="features">
+                    <div className="row">
+                        <div class="column">
+                            Hello
+                        </div>
+                        <div class="column">
+                            Hello2
+                        </div>
+                        <div class="column">
+                            Hello3
+                        </div>
+                    </div>
+                </div>
+                
             </div>
         )
     }

@@ -33,11 +33,31 @@
 
 .App-landing{
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-  
+  position: relative;
 }
 
 .App-landing-content{
   padding-top: 50px;
+  height:100vh ;
+}
+
+.row {
+  display: flex;
+
+}
+
+.column {
+  flex: 33.33%;
+  padding: 20px;
+  background: #3b8fed;
+
+}
+
+.features{
+  width: 50%;
+  position: absolute;
+left:50%;
+transform:translate(-50%);
 }
 
 .illustration{
@@ -50,6 +70,8 @@
   background-repeat: no-repeat;
   float: right;
 }
+
+.
 
 @keyframes App-logo-spin {
   from {
