@@ -6,6 +6,10 @@ import theater from './assets/images/theater.png'
 import donation from './assets/images/donation.png'
 import healthy from './assets/images/healthy.png'
 import holiday from './assets/images/sunbed.png'
+import aboutuspica from './assets/images/aboutuspic1.jpg'
+import aboutuspicb from './assets/images/aboutuspic2.jpg'
+import aboutuspicc from './assets/images/aboutuspic3.jpg'
+
 
 let message = {
     title: "EventsIgnited",
@@ -16,10 +20,10 @@ class Message extends React.Component{
     render(){
         return(
             <div className="App-landing">
-                <nav class="navbar">
+                <nav class="navbar container">
                     <div class="container-fluid">
                         <div class="navbar-header">
-                            <a class="navbar-brand" href="#">{this.props.title}</a>
+                            <a class="navbar-brand brand" href="#">{this.props.title}</a>
                         </div>
                         <div className="App-header-elements">
                         <ul class="nav navbar-nav">
@@ -32,11 +36,14 @@ class Message extends React.Component{
                         </div>
                     </div>
                 </nav>
-                <div className="App-landing-content">
-                    <h2>
-                        Hi, We organise Great Events
+                <div className="App-landing-content container">
+                    <h2 className="content-main">
+                        Hi, We help you organize great events<br/><h4>
+                        We mean it! You’ll save time, energy, and money while<br/> giving your audience an unparralled event experience.
+                        </h4>
+                        <br/>
+                        <button class="btn btn-primary navbar-btn">Know more</button>
                     </h2>
-                    <button class="btn btn-primary navbar-btn">Know more</button>
                     <img src="ill1.svg" className="illustration"/>
                 </div>
                 <div className="features">
@@ -52,16 +59,16 @@ class Message extends React.Component{
                         </div>
                     </div>
                 </div>
-                <div className="howitwork">
+                <div className="howitwork container">
                     <div id="part1">
-                        <img src="ill1.svg" className="illustration"/>
+                        <img src="ill1.svg"/>
                     </div>
                     <div id="part2">
                         <p id="step1">
                             Book Us
                         </p>
                         <p id="step2">
-                            We Do All Planing In You Budget
+                            We Do All Planning In Your Budget
                         </p>
                         <p id="step3">
                             Enjoy !
@@ -88,6 +95,24 @@ class Message extends React.Component{
                                 <img src={holiday} className="illustration-categories"/>
                             </div>
                         </div>
+                </div>
+                <div className="about-us flex-row">
+                    <div className="about-us-pics">
+                        <div className="aboutuspica">
+                            <img src={aboutuspicc}/>
+                        </div>
+                        <div className="aboutuspicb">
+                            <img src={aboutuspica} alt="alternate"/>
+                        </div>
+                        <div className="aboutuspicc">
+                            <img src={aboutuspicb}/>
+                        </div>
+                    </div>
+                    <div id="part2">
+                        <h1>
+                        We mean it! You’ll save time, energy, and money while giving your audience an unparralled event experience.
+                        </h1>
+                    </div>
                 </div>
             </div>
         )

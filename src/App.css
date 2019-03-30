@@ -2,10 +2,19 @@
   text-align: center;
 }
 
+.container{
+  max-width: 1140px;
+  min-width: 1200px;
+}
+
 .App-logo {
   animation: App-logo-spin infinite 20s linear;
   height: 40vmin;
   pointer-events: none;
+}
+
+.brand{
+  padding: 18px 0px;
 }
 
 .App-header {
@@ -38,7 +47,12 @@
 
 .App-landing-content{
   padding-top: 50px;
-  height:100vh ;
+  height:100vh ; 
+}
+
+.content-main{
+  width:50%;
+  float: left;
 }
 
 .row {
@@ -56,10 +70,10 @@
 .features{
   width: 70%;
   position: relative;
-left:50%;
-transform:translate(-50%);
-margin-bottom: 50px;
-height: 100vh;
+  left:50%;
+  transform:translate(-50%);
+  margin-bottom: 50px;
+  height: 100vh;
 }
 
 #part1{
@@ -75,12 +89,11 @@ float: right;
 .howitwork{
   height: 100vh;
   position: relative;
+  align-content: center;
 }
 
 #step1{
-  /* float: left; */
-  width: 50%;
-  padding: 10px 20px;
+  padding: 10px 10px;
   text-align: justify;
   border-radius: 10px;
   box-shadow: rgba(0, 0, 0, 0.7) 0 0 5px;
@@ -92,9 +105,7 @@ float: right;
 }
 
 #step2{
-  /* float: right; */
-  width: 50%;
-  padding: 10px 20px;
+  padding: 10px 10px;
   text-align: justify;
   border-radius: 10px;
   box-shadow: rgba(0, 0, 0, 0.7) 0 0 5px;
@@ -106,8 +117,7 @@ float: right;
 }
 
 #step3{
-  /* width: 50%; */
-  padding: 10px 20px;
+  padding: 10px 10px;
   text-align: justify;
   border-radius: 10px;
   box-shadow: rgba(0, 0, 0, 0.7) 0 0 5px;
@@ -118,7 +128,7 @@ float: right;
 }
 
 .categories{
-  height: 50vh;
+  height: 38vh;
   width: auto;
   background: #3b8fed;
   position:relative; 
@@ -129,8 +139,8 @@ float: right;
   display: inline-flexbox;
   flex: 33.33%;
   padding: 40px;
-  margin-top: 10%;
   margin-left: 4%;
+  left: 12%;
   position: relative;
 }
 
@@ -138,6 +148,7 @@ float: right;
   flex: 33.33%;
   padding: 40px;
   margin-left: 20%;
+  left: 8%;
   position: relative;
 }
 
@@ -146,7 +157,6 @@ float: right;
   height: 107px;
   background: white;
   border-radius: 60%;
-  top: 10%;
   position: relative;
   margin-left: 80px;
   margin-right: 260px;
@@ -156,6 +166,7 @@ float: right;
   float: right;
   margin-right: 100px;
 }
+
 
 
 .illustration-categories{
@@ -174,7 +185,7 @@ float: right;
 .illustration{
   display: block;
   text-indent: -9999px;
-  width: 500px;
+  width: 50%;
   height: 282px;
   background: url(ill1.svg);
   background-size: 500px 282px;
@@ -207,4 +218,47 @@ float: right;
 @keyframes mover {
   0% { transform: translateY(0); }
   100% { transform: translateY(-10px); }
+}
+
+.about-us{
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 40px;
+}
+
+.about-us-pics{
+  position: relative;
+  margin-left: 75px;
+  height: 488px;
+  max-width: 540px;
+  width: 50%;
+  float: left;
+}
+
+.aboutuspica{
+  max-width: 432px;
+  top: 0;
+  left: 0;
+  margin-block-end: 120px;
+}
+
+.aboutuspicb{
+  max-width: 260px;
+  right: -158px;
+  top: 158px;
+  z-index: 2;
+  position: absolute;
+  margin-left: 20px;
+}
+
+.aboutuspicc{
+  max-width: 300px;
+  bottom: 0;
+  right: 192px;
+  z-index: 3;
+}
+
+.flex-row{
+  display: flex;
+  flex-direction: row;
 }
