@@ -36,9 +36,19 @@
 }
 
 .nav a{
-  color: white;
-  font-size:1.38em;
+  color: black;
+  font-size:1.5em;
   background-color:none;
+}
+
+.navbar-brand{
+  font-size: 20px;
+}
+
+.btn{
+  font-size: 1.5rem;
+  margin-left: 15px;
+  box-shadow: 0 8px 6px -6px #b59191;
 }
 
 .App-link {
@@ -52,7 +62,7 @@
 
 .App-landing-content{
   padding-top: 50px;
-  height:100vh ; 
+  height:103.8vh; 
 }
 
 .content-main{
@@ -63,7 +73,7 @@
     -moz-transform: translate(0%, 25%); 
     -ms-transform: translate(0%, 25%); 
     -o-transform: translate(0%, 25%); 
-    transform: translate(0%, 25%); 
+    transform: translate(0%, 30%); 
 }
 
 .content-main p{
@@ -189,10 +199,10 @@ hr.vertical {
 .features{
   width: 70%;
     position: relative;
-    /* left: 50%; */
+    left: 50%;
     -webkit-transform: translate(-50%);
     transform: translate(20%);
-    /* margin-bottom: 50px; */
+    margin-bottom: 50px;
     height: 50%;
     margin: 0;
     border-radius: 15px;
@@ -270,18 +280,17 @@ div.vertical-line{
 
     top: 50%;
     left: 50%; 
-    width: 512px;
-    height: 512px; 
-    -webkit-transform: translate(0%, 0%);
-    -moz-transform: translate(0%, 0%); 
-    -ms-transform: translate(0%, 0%); 
-    -o-transform: translate(0%, 0%); 
-    transform: translate(0%, 0%); 
+    width: 700px;
+    height: 515px; 
+    -webkit-transform: translate(30%, -60%);
+    -moz-transform: translate(30%, -60%); 
+    -ms-transform: translate(30%, -60%); 
+    -o-transform: translate(30%, -60%); 
+    transform: translate(30%, -60%); 
 }
 
 .bg-landing{
   background: url("./assets/images/bg.svg");
-
 }
 
 
