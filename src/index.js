@@ -10,6 +10,7 @@ import aboutuspica from './assets/images/aboutuspic1.jpg'
 import aboutuspicb from './assets/images/aboutuspic2.jpg'
 import aboutuspicc from './assets/images/aboutuspic3.jpg'
 import landing from './assets/images/hangout.svg'
+import mobile from './assets/images/Illustrations/mobile_2.svg'
 
 
 let message = {
@@ -53,36 +54,45 @@ class Message extends React.Component{
                     </div>
                 </div>
                 <div className="features">
-                    <div className="row">
+                <div className="row">
                         <div class="column">
                             Hello
+                            <hr class="vertical" />
                         </div>
                         <div class="column">
                             Hello2
+                            <hr class="vertical" />
                         </div>
                         <div class="column">
                             Hello3
+                            <hr class="vertical" />
                         </div>
                     </div>
                 </div>
-                <div className="howitwork container">
+                <div className="howitwork">
+                    <h4 id="howitwork-head">Everything you need to manage Events.</h4>
                     <div id="part1">
-                        <img src="ill1.svg"/>
+                        <img src={mobile}/>
                     </div>
                     <div id="part2">
-                        <p id="step1">
-                            Book Us
-                        </p>
-                        <p id="step2">
-                            We Do All Planning In Your Budget
-                        </p>
-                        <p id="step3">
-                            Enjoy !
-                        </p>
+                        <ul>
+                            <li id="step1">
+                                <h5>Design</h5><h4>
+                                Create killer event emails and websites</h4>Take creative control with our 100% visual design editor, Canvas. Design on-brand, mobile-responsive email invites and registration websites without a line of code.
+                                </li>
+                                <li id="step2">
+                                <h5>Design</h5><h4>
+                                    Create killer event emails and websites</h4>Take creative control with our 100% visual design editor, Canvas. Design on-brand, mobile-responsive email invites and registration websites without a line of code.
+                                </li>
+                                <li id="step3">
+                                <h5>Design</h5><h4>
+                                    Create killer event emails and websites</h4>Take creative control with our 100% visual design editor, Canvas. Design on-brand, mobile-responsive email invites and registration websites without a line of code.
+                                </li>
+                        </ul>
                     </div>
                 </div>
-                <div className="categories">
-                        <div className="categories-column-1 row">
+                {/* <div className="categories">
+                        <div className="categories-column-1">
                             <div class="vert-move-delay circle">
                                 <img src={brokerage} className="illustration-categories"/>
                             </div>
@@ -101,7 +111,7 @@ class Message extends React.Component{
                                 <img src={holiday} className="illustration-categories"/>
                             </div>
                         </div>
-                </div>
+                </div> */}
                 <div className="about-us flex-row">
                     <div className="about-us-pics">
                         <div className="aboutuspica">
