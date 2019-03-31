@@ -9,13 +9,15 @@ import holiday from './assets/images/sunbed.png'
 import aboutuspica from './assets/images/aboutuspic1.jpg'
 import aboutuspicb from './assets/images/aboutuspic2.jpg'
 import aboutuspicc from './assets/images/aboutuspic3.jpg'
-import landing from './assets/images/a.svg'
+import landing from './assets/images/hangout.svg'
 
 
 let message = {
     title: "EventsIgnited",
     minutes: 9
 }
+
+
 
 class Message extends React.Component{
     render(){
@@ -39,13 +41,14 @@ class Message extends React.Component{
                         </div>
                     </nav>
                     <div className="App-landing-content container">
-                        <h2 className="content-main">
-                            Hi, We help you organize great events<br/><h4>
-                            We mean it! You’ll save time, energy, and money while<br/> giving your audience an unparralled event experience.
-                            </h4>
-                            <br/>
+                        <div className="content-main">
+                            <p>Build</p>
+                            <a href="" class="typewrite" data-period="2000" data-type='[ "Sexy","Magnanimous", "Corporate", "Economical", "Huge","Eco Friendly","Eye Catchy"]'>
+                                <span class="wrap"></span>
+                            </a> <br/>
+                            <p>Events</p>
                             <button class="btn btn-primary navbar-btn">Know more</button>
-                        </h2>
+                        </div>
                         <img src={landing} className="illustration"/>
                     </div>
                 </div>
