@@ -101,6 +101,7 @@ class Message extends React.Component{
                         </div>
                 </div> */}
                 <div className="features">
+                <h4 id="features-head">Features.</h4>
                 <div className="row">
                         <div class="column">
                             <h3>
@@ -130,7 +131,9 @@ class Message extends React.Component{
                         </div>
                     </div>
                 </div>
-                <div className="about-us flex-row">
+                <div>
+                <h4 id="about-head">About.</h4>
+                    <div className="about-us flex-row">
                     <div className="about-us-pics">
                         <div className="aboutuspica">
                             <img src={aboutuspicc}/>
@@ -143,11 +146,13 @@ class Message extends React.Component{
                         </div>
                     </div>
                     <div id="part2">
-                        <h1>
+                        <h3>
                         We mean it! You’ll save time, energy, and money while giving your audience an unparralled event experience.
-                        </h1>
+                        </h3>
                     </div>
                 </div>
+                </div>
+                
                 <div class="footer-distributed">
                     <div class="footer-left">
                         <h3>Company<span>logo</span></h3>

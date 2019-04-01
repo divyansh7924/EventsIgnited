@@ -125,6 +125,29 @@ transform: translate(0%, 20%);
   padding-top: 45px;
 }
 
+#features-head{
+  text-align: center;
+
+font-size: 3.3rem;
+
+line-height: 1.18;
+
+letter-spacing: -0.03rem;
+
+margin: 0;
+
+padding: 45px;
+}
+
+#about-head{
+  text-align: center;
+  font-size: 3.3rem;
+  line-height: 1.18;
+  letter-spacing: -0.03rem;  
+  margin: 0;
+  padding-top: 150px;
+}
+
 #part2 h5{
   color: red;
 }
@@ -326,11 +349,14 @@ div.vertical-line{
 }
 
 .about-us{
-  justify-content: space-between;
-  align-items: center;
-  margin-top: 10px;
-  height: 100vh;
-  position: relative;
+-webkit-justify-content: space-between;
+justify-content: space-between;
+-webkit-align-items: center;
+align-items: center;
+margin-top: 50px;
+height: auto;
+position: relative;
+margin-bottom: 155px;
 }
 
 .about-us-pics{
@@ -341,6 +367,12 @@ div.vertical-line{
   width: 50%;
   float: left;
 }
+
+.about-us-pics img{
+  box-shadow: 0 20px 50px rgba(17,17,17,0.5);
+
+}
+
 
 .aboutuspica{
   max-width: 432px;
