@@ -379,24 +379,27 @@ margin-bottom: 155px;
 
 .about-us-pics{
   position: relative;
-  margin-left: 75px;
-  height: 488px;
-  max-width: 540px;
-  width: 50%;
-  float: left;
+margin-left: 75px;
+height: 483px;
+max-width: 360px;
+width: 50%;
+float: left;
 }
 
 .about-us-pics img{
   box-shadow: 0 20px 50px rgba(17,17,17,0.5);
+  border-radius: 15px;
 
 }
 
 
 .aboutuspica{
   max-width: 432px;
-  top: 0;
-  left: 0;
-  margin-block-end: 120px;
+top: 0;
+left: 0;
+-webkit-margin-after: 120px;
+margin-block-end: 85px;
+height: 186px;
 }
 
 .aboutuspicb{
