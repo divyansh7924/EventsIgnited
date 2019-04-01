@@ -14,7 +14,12 @@ import mobile from './assets/images/Illustrations/mobile_2.svg'
 import Explore from './assets/images/Explore.svg'
 import organise from './assets/images/organise.svg'
 import plans from './assets/images/plans.svg'
-
+import music_cat from './assets/images/music-cat.jpg'
+import art_cat from './assets/images/art-cat.jpg'
+import business_cat from './assets/images/business-cat.jpg'
+import parties_cat from './assets/images/parties-cat.jpg'
+import classes_cat from './assets/images/classes-cat.jpg'
+import sports_cat from './assets/images/sports-cat.jpg'
 
 let message = {
     title: "EventsIgnited",
@@ -107,29 +112,9 @@ class Message extends React.Component{
                         </div>
                     </div>
                 </div>
-                {/* <div className="categories">
-                        <div className="categories-column-1">
-                            <div class="vert-move-delay circle">
-                                <img src={brokerage} className="illustration-categories"/>
-                            </div>
-                            <div className="vert-move-delays circle">
-                                <img src={theater} className="illustration-categories"/>
-                            </div>
-                            <div className="vert-move-delay circle end">
-                                <img src={donation} className="illustration-categories"/>
-                            </div>
-                        </div>
-                        <div className="categories-column-2">
-                            <div class="vert-move-delay circle">
-                                <img src={healthy} className="illustration-categories"/>
-                            </div>
-                            <div className="vert-move-delays circle">
-                                <img src={holiday} className="illustration-categories"/>
-                            </div>
-                        </div>
-                </div> */}
+                
           
-            <div id="teamdata">
+            {/* <div id="teamdata">
             <h4 id="category-head">Categories.</h4>
                 <div class="teamphoto">
                     <a class="gallery-item vert-move-delay" href="#">
@@ -151,11 +136,12 @@ class Message extends React.Component{
                     </a>
                    
                 </div>
-            </div>
-
+            </div> */}
+            
+               
 
                 <div>
-                <h4 id="about-head">About.</h4>
+                <h4 id="about-head">About Us.</h4>
                     <div className="about-us flex-row">
                     <div className="about-us-pics">
                         <div className="aboutuspica">
@@ -174,6 +160,34 @@ class Message extends React.Component{
                         </h3>
                     </div>
                 </div>
+                </div>
+
+                 <h4 id="category-head">Categories.</h4>
+                <div id="category-row">
+                            <div className="box">
+                            <img src={music_cat} className="category-column"/>
+                            <h4>Music</h4>
+                            </div>
+                            <div className="box">
+                            <img src={art_cat} className="category-column"/>
+                            <h4>Art</h4>
+                            </div>
+                            <div className="box">
+                            <img src={business_cat} className="category-column"/>
+                            <h4>Business</h4>
+                           </div>
+                           <div className="box">
+                            <img src={parties_cat} className="category-column"/>
+                            <h4>Parties</h4>
+                           </div>
+                           <div className="box">
+                            <img src={classes_cat} className="category-column"/>
+                            <h4>Classes</h4>
+                            </div>
+                            <div className="box">
+                            <img src={sports_cat} className="category-column"/>
+                            <h4>Sports</h4>
+                            </div>
                 </div>
                 
                 <div class="footer-distributed">

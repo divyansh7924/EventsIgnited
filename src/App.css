@@ -131,8 +131,39 @@ transform: translate(0%, 20%);
   line-height: 1.18;
   letter-spacing: -0.03rem;  
   margin: 0;
-  padding: 45px 0 75px 0;
+  padding: 75px 0 20px 0;
 }
+
+#category-row{
+  display: flex;
+  margin: 20px 20px;
+  width: 70%;  
+  transform: translate(20%,20%);
+}
+
+.category-column{
+  flex: 16.66%;
+  text-align: center;
+  border-radius: 15px;
+  background: #fafbfc;
+  box-shadow: 0 20px 50px rgba(17,17,17,0.2);
+  margin: 0 25px;
+  height: 250px;
+  width: 175px;
+}
+
+.box{
+  position: relative;
+  text-align: center;
+  color: white;
+}
+
+.box h4{
+  position: absolute;
+  margin-left: 45px;
+  margin-top: -40px;
+}
+
 
 #features-head{
   text-align: center;
@@ -218,6 +249,7 @@ padding: 45px;
 .column {
   flex: 33.33%;
   text-align: center;
+  padding: 20px;
 }
 
 hr.vertical {
@@ -399,7 +431,11 @@ top: 0;
 left: 0;
 -webkit-margin-after: 120px;
 margin-block-end: 85px;
-height: 186px;
+height: 350px;
+}
+
+.aboutuspica img{
+  height: 300px;
 }
 
 .aboutuspicb{
@@ -411,12 +447,23 @@ height: 186px;
   margin-left: 20px;
 }
 
+.aboutuspicb img{
+  height: 350px;
+}
+
 .aboutuspicc{
   max-width: 300px;
   bottom: 0;
   right: 192px;
   z-index: 3;
 }
+
+.aboutuspicc img{
+  height: 250px;
+  margin-left: 60px;
+}
+
+
 
 .flex-row{
   display: flex;
