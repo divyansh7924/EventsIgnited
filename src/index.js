@@ -88,7 +88,6 @@ class Message extends React.Component{
                             <br/>
                             Explore & attend</h3><br/>
                             <p>Search and attend near by events</p>
-                            <hr class="vertical" />
                         </div>
                         <div class="column">
                             <h3>
@@ -97,7 +96,6 @@ class Message extends React.Component{
                             Organise & Connect</h3>
                             <br/>
                             <p>Organise events or meet-ups and connect with people</p>
-                            <hr class="vertical" />
                         </div>
                         <div class="column">
                             <h3>
@@ -106,7 +104,6 @@ class Message extends React.Component{
                             Plan & execute</h3>
                             <br/>
                             <p>Plan and execute events in your budget</p>
-                            <hr class="vertical" />
                         </div>
                     </div>
                 </div>
