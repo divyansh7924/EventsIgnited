@@ -79,27 +79,6 @@ class Message extends React.Component{
                     </div>
                 </div>
                 </div>
-                {/* <div className="categories">
-                        <div className="categories-column-1">
-                            <div class="vert-move-delay circle">
-                                <img src={brokerage} className="illustration-categories"/>
-                            </div>
-                            <div className="vert-move-delays circle">
-                                <img src={theater} className="illustration-categories"/>
-                            </div>
-                            <div className="vert-move-delay circle end">
-                                <img src={donation} className="illustration-categories"/>
-                            </div>
-                        </div>
-                        <div className="categories-column-2 row">
-                            <div class="vert-move-delay circle">
-                                <img src={healthy} className="illustration-categories"/>
-                            </div>
-                            <div className="vert-move-delays circle">
-                                <img src={holiday} className="illustration-categories"/>
-                            </div>
-                        </div>
-                </div> */}
                 <div className="features">
                 <h4 id="features-head">Features.</h4>
                 <div className="row">
@@ -131,6 +110,53 @@ class Message extends React.Component{
                         </div>
                     </div>
                 </div>
+                {/* <div className="categories">
+                        <div className="categories-column-1">
+                            <div class="vert-move-delay circle">
+                                <img src={brokerage} className="illustration-categories"/>
+                            </div>
+                            <div className="vert-move-delays circle">
+                                <img src={theater} className="illustration-categories"/>
+                            </div>
+                            <div className="vert-move-delay circle end">
+                                <img src={donation} className="illustration-categories"/>
+                            </div>
+                        </div>
+                        <div className="categories-column-2">
+                            <div class="vert-move-delay circle">
+                                <img src={healthy} className="illustration-categories"/>
+                            </div>
+                            <div className="vert-move-delays circle">
+                                <img src={holiday} className="illustration-categories"/>
+                            </div>
+                        </div>
+                </div> */}
+          
+            <div id="teamdata">
+            <h4 id="category-head">Categories.</h4>
+                <div class="teamphoto">
+                    <a class="gallery-item vert-move-delay" href="#">
+                        <img src={brokerage}/>
+                    </a>
+                    <a class="gallery-item vert-move-delay" href="#">
+                        <img src={theater}/>
+                    </a>
+                    <a class="gallery-item vert-move-delay" href="#">
+                        <img src={donation}/>
+                    </a>
+                </div>
+                <div id="teamphoto2">
+                    <a class="gallery-item vert-move-delays" href="#">
+                            <img src={healthy}/>
+                    </a>
+                    <a class="gallery-item vert-move-delays" href="#">
+                        <img src={holiday}/>
+                    </a>
+                   
+                </div>
+            </div>
+
+
                 <div>
                 <h4 id="about-head">About.</h4>
                     <div className="about-us flex-row">
