@@ -55,7 +55,7 @@ class Message extends React.Component{
                         </div>
                         <img src={landing} className="illustration"/>
                     </div>
-                </div>
+                
                 <div className="howitwork">
                     <h4 id="howitwork-head">Everything you need to manage Events.</h4>
                     <div id="part1">
@@ -77,6 +77,7 @@ class Message extends React.Component{
                                 </li>
                         </ul>
                     </div>
+                </div>
                 </div>
                 {/* <div className="categories">
                         <div className="categories-column-1">

@@ -138,7 +138,6 @@ transform: translate(0%, 20%);
   height: 100vh;
   position: relative;
   align-content: center;
-  background-color: whitesmoke;
 }
 
 #step1{
@@ -296,6 +295,7 @@ div.vertical-line{
 
 .bg-landing{
   background: url("./assets/images/bg.svg");
+  background-repeat: no-repeat;
 }
 
 
