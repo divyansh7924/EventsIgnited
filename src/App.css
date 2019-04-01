@@ -46,9 +46,15 @@
 }
 
 .btn{
-  font-size: 1.5rem;
-  margin-left: 15px;
+  font-size: 2.2rem;
   box-shadow: 0 8px 6px -6px #b59191;
+}
+
+.btn-primary{
+  border-radius:30px;
+  background-color: #3950FF;
+  color:#fff;
+  padding: 10px 50px;
 }
 
 .App-link {
@@ -68,7 +74,11 @@
 .content-main{
   width:50%;
   float: left;
-  font-size: 60px;
+  font-size: 76px;
+    font-weight: 600;
+    line-height: 1.26;
+    letter-spacing: 1.4px;
+     color: #000;
     -webkit-transform: translate(0%, 25%);
     -moz-transform: translate(0%, 25%); 
     -ms-transform: translate(0%, 25%); 
@@ -82,7 +92,11 @@
 }
 
 .content-main a{
-    font-size: 60px;
+    font-size: 76px;
+    font-weight: 600;
+    line-height: 1.26;
+    color: #000;
+    letter-spacing: 1.4px;
     margin: 0;
     padding: 0;
 }
@@ -125,6 +139,7 @@ transform: translate(0%, 20%);
   padding-top: 45px;
 }
 
+
 #category-head{
   text-align: center;
   font-size: 3.3rem;
@@ -146,11 +161,24 @@ transform: translate(0%, 20%);
   text-align: center;
   border-radius: 15px;
   background: #fafbfc;
-  box-shadow: 0 20px 50px rgba(17,17,17,0.2);
   margin: 0 25px;
-  height: 250px;
+  height: 300px;
   width: 175px;
 }
+
+.box:hover{
+  -webkit-animation: mover 0.7s infinite  alternate;
+  animation: mover 0.7s infinite  alternate;
+}
+
+
+.category-column:hover{
+  box-shadow: 0 20px 50px rgba(17,17,17,0.2);
+  -webkit-animation: mover 0s infinite  alternate;
+  animation: mover 0s infinite  alternate;
+}
+
+
 
 .box{
   position: relative;
