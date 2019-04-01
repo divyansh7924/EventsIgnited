@@ -11,6 +11,9 @@ import aboutuspicb from './assets/images/aboutuspic2.jpg'
 import aboutuspicc from './assets/images/aboutuspic3.jpg'
 import landing from './assets/images/hangout.svg'
 import mobile from './assets/images/Illustrations/mobile_2.svg'
+import Explore from './assets/images/Explore.svg'
+import organise from './assets/images/organise.svg'
+import plans from './assets/images/plans.svg'
 
 
 let message = {
@@ -51,22 +54,6 @@ class Message extends React.Component{
                             <button class="btn btn-primary navbar-btn">Know more</button>
                         </div>
                         <img src={landing} className="illustration"/>
-                    </div>
-                </div>
-                <div className="features">
-                <div className="row">
-                        <div class="column">
-                            Hello
-                            <hr class="vertical" />
-                        </div>
-                        <div class="column">
-                            Hello2
-                            <hr class="vertical" />
-                        </div>
-                        <div class="column">
-                            Hello3
-                            <hr class="vertical" />
-                        </div>
                     </div>
                 </div>
                 <div className="howitwork">
@@ -112,6 +99,36 @@ class Message extends React.Component{
                             </div>
                         </div>
                 </div> */}
+                <div className="features">
+                <div className="row">
+                        <div class="column">
+                            <h3>
+                            <img src={Explore}/>
+                            <br/>
+                            Explore & attend</h3><br/>
+                            <p>Search and attend near by events</p>
+                            <hr class="vertical" />
+                        </div>
+                        <div class="column">
+                            <h3>
+                            <img src={organise}/>
+                            <br/>
+                            Organise & Connect</h3>
+                            <br/>
+                            <p>Organise events or meet-ups and connect with people</p>
+                            <hr class="vertical" />
+                        </div>
+                        <div class="column">
+                            <h3>
+                            <img src={plans}/>
+                            <br/>
+                            Plan & execute</h3>
+                            <br/>
+                            <p>Plan and execute events in your budget</p>
+                            <hr class="vertical" />
+                        </div>
+                    </div>
+                </div>
                 <div className="about-us flex-row">
                     <div className="about-us-pics">
                         <div className="aboutuspica">

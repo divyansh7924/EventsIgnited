@@ -179,15 +179,14 @@ transform: translate(0%, 20%);
 .row {
   display: flex;
   border-radius: 15px;
-  background: whitesmoke;
-  margin: 100px;
+  background: #fafbfc;
+  margin: 0;
+    box-shadow: 0 20px 50px rgba(17,17,17,0.2);
 }
 
 .column {
   flex: 33.33%;
-  padding: 20px;
   text-align: center;
-  padding:100px;
 }
 
 hr.vertical {
@@ -197,15 +196,21 @@ hr.vertical {
 }
 
 .features{
-  width: 70%;
+  width: 55%;
     position: relative;
     left: 50%;
     -webkit-transform: translate(-50%);
-    transform: translate(20%);
+    transform: translate(-50%);
     margin-bottom: 50px;
-    height: 50%;
+    height: auto;
     margin: 0;
     border-radius: 15px;
+}
+
+.row img{
+  height: 130px;
+  width: 130px;
+  padding-bottom: 40px;
 }
 
 div.vertical-line{
