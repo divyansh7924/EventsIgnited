@@ -57,9 +57,9 @@ class Message extends React.Component{
                     <div className="App-landing-content container">
                         <div className="content-main">
                             <p>Build</p>
-                            <a href="" class="typewrite" data-period="2000" data-type='[ "Sexy","Magnanimous", "Corporate", "Economical", "Huge","Eco Friendly","Eye Catchy"]'>
+                            <span class="typewrite" data-period="2000" data-type='[ "Sexy","Magnanimous", "Corporate", "Economical", "Huge","Eco Friendly","Eye Catchy"]'>
                                 <span class="wrap"></span>
-                            </a> <br/>
+                            </span> <br/>
                             <p>Events</p>
                             <button class="btn btn-primary navbar-btn">Know more</button>
                         </div>
