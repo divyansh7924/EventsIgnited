@@ -32,6 +32,10 @@ transition: color 0.1s,background-color 0.1s,padding 0.2s ease-in;
 color: #000;
 }
 
+#get-demo:hover{
+  cursor: pointer;
+}
+
 .App-header {
   background-color: #3b8fed;
   display: flex;
