@@ -40,12 +40,14 @@ class Message extends React.Component{
                                 <a class="navbar-brand brand" href="#">{this.props.title}</a>
                             </div>
                             <div className="App-header-elements">
-                            <ul class="nav navbar-nav">
-                                    <li class="active"><a href="#">Portfolio</a></li>
-                                    <li><a href="#">Login</a></li>
-                                    <li><a href="#">Signup</a></li>
-                                    <li><a href="#">Help</a></li>
+                            <nav>
+                                <ul>
+                                <li class="item"><a href="#">Portfolio</a></li>
+                                <li class="item"><a href="#">Features</a></li>
+                                <li class="item"><a href="#">About Us</a></li>
+                                <li class="item"><a href="#">Contact us</a></li>
                                 </ul>
+                            </nav>
                                 {/* <button class="btn btn-danger navbar-btn">How it Works</button> */}
                             </div>
                         </div>
