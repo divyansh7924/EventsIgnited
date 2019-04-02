@@ -37,7 +37,7 @@ class Message extends React.Component{
                     <nav class="navbar container">
                         <div class="container-fluid">
                             <div class="navbar-header">
-                                <a class="navbar-brand brand" href="#">{this.props.title}</a>
+                                <h4 class="navbar-brand brand" href="#">{this.props.title}</h4>
                             </div>
                             <div className="App-header-elements">
                             <nav>
@@ -46,6 +46,8 @@ class Message extends React.Component{
                                 <li class="item"><a href="#">Features</a></li>
                                 <li class="item"><a href="#">About Us</a></li>
                                 <li class="item"><a href="#">Contact us</a></li>
+                                <li class="item"><a href="#">Login</a></li>
+                                <li class="item"><span href="#" id="get-demo">Get Started</span></li>
                                 </ul>
                             </nav>
                                 {/* <button class="btn btn-danger navbar-btn">How it Works</button> */}
@@ -185,10 +187,19 @@ class Message extends React.Component{
                             <img src={aboutuspicb}/>
                         </div>
                     </div>
-                    <div id="part2">
-                        <h3>
-                        We mean it! You’ll save time, energy, and money while giving your audience an unparralled event experience.
-                        </h3>
+                    <div id="about-part-2">
+                        <span>
+                        Get your Event live within minutes
+                        
+                        </span>
+                        <p id="about-little">
+                        Welcome to the one stop destination for all event management queries. 
+                        Deliver the audience with greatest ever experience.
+                        </p>
+                        <div class="input-with-btn">
+                        <input name="prefilEmail" type="email" class="input-standart" required="" placeholder="Enter your email"/>
+                        <input type="submit" value="GET STARTED" class="btn-standart darkblue"/>
+                    </div>
                     </div>
                 </div>
                 </div>

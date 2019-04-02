@@ -3,7 +3,7 @@
 }
 
 .container{
-  width: 70%;
+  width: 75%;
 }
 
 .App-logo {
@@ -14,6 +14,22 @@
 
 .brand{
   padding: 18px 0px;
+}
+
+#get-demo{
+  border: 2px solid #3950ff;
+border-radius: 6px;
+position: relative;
+display: block;
+padding: 12px;
+margin: 0 0 12px 0;
+letter-spacing: 1px;
+font-size: 15px;
+line-height: 16px;
+font-weight: 1000;
+text-transform: uppercase;
+transition: color 0.1s,background-color 0.1s,padding 0.2s ease-in;
+color: #000;
 }
 
 .App-header {
@@ -65,15 +81,17 @@ nav a {
 nav a {
   position: relative;
   display: block;
-  padding: 16px 0;
+  padding: 0 0 10px 0;
   margin: 0 12px;
   letter-spacing: 1px;
-  font-size: 12px;
+  font-size: 15px;
   line-height: 16px;
-  font-weight: 900;
+  font-weight: 1000;
   text-transform: uppercase;
   transition: color 0.1s,background-color 0.1s,padding 0.2s ease-in;
   color: #000;
+
+
 }
 nav a::before {
   content: '';
@@ -177,6 +195,93 @@ float: right;
 transform: translate(0%, 20%); 
 }
 
+#about-part-2{
+  float: right;
+  /*text-align:justify;*/
+  max-width: 480px;
+width: 100%;
+transform: translate(-45%,50%);
+}
+
+#about-part-2 span{
+  font-size: 36px;
+color: rgba(44,44,44,1);
+line-height: 44px;
+display: block;
+  margin-bottom: 20px;
+}
+
+#about-little{
+  font-size: 16px;
+color: rgba(44,44,44,.6);
+text-align: left;
+letter-spacing: .02em;
+line-height: 25px;
+margin-bottom: 50px;
+}
+
+.input-with-btn {
+    display: flex;
+    flex-direction: row;
+    max-width: 450px;
+    box-shadow: 0 6px 13px 0 rgba(0,0,0,.06);
+    border-radius: 5px;
+    align-items: center;
+}
+
+.input-standart {
+    border: 1px solid rgba(233,233,233,1);
+    border-radius: 5px;
+    padding: 0 16px;
+    margin: 0;
+    outline: none;
+    line-height: 56px;
+    height: 56px;
+}
+
+.btn-standart.darkblue {
+    background-color: #3950ff;
+
+}
+
+.btn-standart {
+    max-width: 180px;
+    width: 100%;
+    display: block;
+    text-decoration: none;
+    border: none;
+    text-transform: uppercase;
+    border-radius: 5px;
+    font-size: 16px;
+    color: rgba(255,255,255,1);
+    text-align: center;
+    padding: 15px 0 18px;
+    transition: all .3s ease-in-out;
+    cursor: pointer;
+}
+
+.input-with-btn .input-standart {
+    max-width: calc(100% - 180px);
+    width: 100%;
+    border-radius: 5px 0 0 5px;
+    transition: all .2s ease-in-out;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    line-height: 16px;
+    vertical-align: middle;
+}
+.input-with-btn input {
+    margin: 0;
+}
+
+.input-with-btn .btn-standart {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    border-radius: 0 5px 5px 0;
+}
+
 #part2 li{
   position: relative;
   background: #fafbfc;
@@ -210,7 +315,7 @@ transform: translate(0%, 20%);
 #category-row{
   display: flex;
   width: 70%;  
-  transform: translate(15%,20%);
+  transform: translate(20%,20%);
 }
 
 .category-column{
@@ -445,11 +550,11 @@ div.vertical-line{
     left: 50%; 
     width: 700px;
     height: 515px; 
-    -webkit-transform: translate(30%, -60%);
-    -moz-transform: translate(30%, -60%); 
-    -ms-transform: translate(30%, -60%); 
-    -o-transform: translate(30%, -60%); 
-    transform: translate(30%, -60%); 
+    -webkit-transform: translate(0%, -60%);
+    -moz-transform: translate(0%, -60%); 
+    -ms-transform: translate(0%, -60%); 
+    -o-transform: translate(0%, -60%); 
+    transform: translate(0%, -60%); 
 }
 
 .bg-landing{
@@ -506,7 +611,7 @@ margin-bottom: 155px;
 
 .about-us-pics{
   position: relative;
-margin-left: 75px;
+margin-left: 130px;
 height: 483px;
 max-width: 360px;
 width: 50%;
