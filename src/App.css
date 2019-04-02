@@ -55,6 +55,12 @@
   background-color: #3950FF;
   color:#fff;
   padding: 10px 50px;
+  border-color: #3950FF;
+}
+
+.btn-primary:hover{
+  background-color: #3950FF;
+  border-color: #3950FF;
 }
 
 .App-link {
@@ -79,11 +85,11 @@
     line-height: 1.26;
     letter-spacing: 1.4px;
      color: #000;
-    -webkit-transform: translate(0%, 25%);
-    -moz-transform: translate(0%, 25%); 
-    -ms-transform: translate(0%, 25%); 
-    -o-transform: translate(0%, 25%); 
-    transform: translate(0%, 30%); 
+    -webkit-transform: translate(0%, 40%);
+    -moz-transform: translate(0%, 40%); 
+    -ms-transform: translate(0%, 40%); 
+    -o-transform: translate(0%, 40%); 
+    transform: translate(0%, 40%); 
 }
 
 .content-main p{
@@ -146,14 +152,13 @@ transform: translate(0%, 20%);
   line-height: 1.18;
   letter-spacing: -0.03rem;  
   margin: 0;
-  padding: 75px 0 20px 0;
+  padding: 45px 0 0px 0;
 }
 
 #category-row{
   display: flex;
-  margin: 20px 20px;
   width: 70%;  
-  transform: translate(20%,20%);
+  transform: translate(15%,20%);
 }
 
 .category-column{
@@ -191,6 +196,16 @@ transform: translate(0%, 20%);
   margin-left: 45px;
   margin-top: -40px;
 }
+
+/* h4{
+  background: url(/static/media/underline.63e54d5f.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-position-y: 80%;
+  padding-bottom: 35px;
+  
+}  this is for nav underlines*/
+
 
 
 #features-head{

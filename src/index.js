@@ -20,6 +20,7 @@ import business_cat from './assets/images/business-cat.jpg'
 import parties_cat from './assets/images/parties-cat.jpg'
 import classes_cat from './assets/images/classes-cat.jpg'
 import sports_cat from './assets/images/sports-cat.jpg'
+import underline from './assets/images/underline.svg'
 
 let message = {
     title: "EventsIgnited",
@@ -45,7 +46,7 @@ class Message extends React.Component{
                                     <li><a href="#">Signup</a></li>
                                     <li><a href="#">Help</a></li>
                                 </ul>
-                                <button class="btn btn-danger navbar-btn">How it Works</button>
+                                {/* <button class="btn btn-danger navbar-btn">How it Works</button> */}
                             </div>
                         </div>
                     </nav>
@@ -137,32 +138,8 @@ class Message extends React.Component{
                    
                 </div>
             </div> */}
-            
-               
 
-                <div>
-                <h4 id="about-head">About Us.</h4>
-                    <div className="about-us flex-row">
-                    <div className="about-us-pics">
-                        <div className="aboutuspica">
-                            <img src={aboutuspicc}/>
-                        </div>
-                        <div className="aboutuspicb">
-                            <img src={aboutuspica} alt="alternate"/>
-                        </div>
-                        <div className="aboutuspicc">
-                            <img src={aboutuspicb}/>
-                        </div>
-                    </div>
-                    <div id="part2">
-                        <h3>
-                        We mean it! You’ll save time, energy, and money while giving your audience an unparralled event experience.
-                        </h3>
-                    </div>
-                </div>
-                </div>
-
-                 <h4 id="category-head">Categories.</h4>
+<h4 id="category-head">Categories.</h4>
                 <div id="category-row">
                             <div className="box">
                             <img src={music_cat} className="category-column"/>
@@ -189,6 +166,58 @@ class Message extends React.Component{
                             <h4>Sports</h4>
                             </div>
                 </div>
+            
+               
+
+                <div>
+                <h4 id="about-head">About Us.</h4>
+                    <div className="about-us flex-row">
+                    <div className="about-us-pics">
+                        <div className="aboutuspica">
+                            <img src={aboutuspicc}/>
+                        </div>
+                        <div className="aboutuspicb">
+                            <img src={aboutuspica} alt="alternate"/>
+                        </div>
+                        <div className="aboutuspicc">
+                            <img src={aboutuspicb}/>
+                        </div>
+                    </div>
+                    <div id="part2">
+                        <h3>
+                        We mean it! You’ll save time, energy, and money while giving your audience an unparralled event experience.
+                        </h3>
+                    </div>
+                </div>
+                </div>
+
+                 {/* <h4 id="category-head">Categories.</h4>
+                <div id="category-row">
+                            <div className="box">
+                            <img src={music_cat} className="category-column"/>
+                            <h4>Music</h4>
+                            </div>
+                            <div className="box">
+                            <img src={art_cat} className="category-column"/>
+                            <h4>Art</h4>
+                            </div>
+                            <div className="box">
+                            <img src={business_cat} className="category-column"/>
+                            <h4>Business</h4>
+                           </div>
+                           <div className="box">
+                            <img src={parties_cat} className="category-column"/>
+                            <h4>Parties</h4>
+                           </div>
+                           <div className="box">
+                            <img src={classes_cat} className="category-column"/>
+                            <h4>Classes</h4>
+                            </div>
+                            <div className="box">
+                            <img src={sports_cat} className="category-column"/>
+                            <h4>Sports</h4>
+                            </div>
+                </div> */}
                 
                 <div class="footer-distributed">
                     <div class="footer-left">
