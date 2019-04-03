@@ -292,7 +292,7 @@ margin-bottom: 50px;
   border-radius: 10px;
   padding: 2.3rem;
   list-style-type: none;
-  box-shadow: 0 20px 50px rgba(17,17,17,0.2);
+  box-shadow: 0 20px 50px rgba(17,17,17,0.1);
   border-radius: 15px;
 }
 
@@ -338,7 +338,7 @@ margin-bottom: 50px;
 
 
 .category-column:hover{
-  box-shadow: 0 20px 50px rgba(17,17,17,0.2);
+  box-shadow: 0 20px 50px rgba(17,17,17,0.1);
   -webkit-animation: mover 0s infinite  alternate;
   animation: mover 0s infinite  alternate;
 }
@@ -446,7 +446,7 @@ padding: 45px;
   border-radius: 15px;
   background: #fafbfc;
   margin: 0;
-    box-shadow: 0 20px 50px rgba(17,17,17,0.2);
+    box-shadow: 0 20px 50px rgba(17,17,17,0.1);
 }
 
 .column {
@@ -634,7 +634,7 @@ float: left;
 }
 
 .about-us-pics img{
-  box-shadow: 0 20px 50px rgba(17,17,17,0.5);
+  box-shadow: 0 20px 50px rgba(17,17,17,0.4);
   border-radius: 15px;
 
 }
