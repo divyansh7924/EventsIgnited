@@ -3,7 +3,7 @@
 }
 
 .container{
-  width: 82%;
+  width: 75%;
 }
 
 .App-logo {
@@ -573,6 +573,7 @@ div.vertical-line{
 
 .bg-landing-3{
   background: url("./assets//images/bg3.svg");
+  /* background-color: whitesmoke; */
   background-repeat: no-repeat;
   height: 100vh;
 }
