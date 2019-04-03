@@ -3,7 +3,7 @@
 }
 
 .container{
-  width: 75%;
+  width: 90%;
 }
 
 .App-logo {
@@ -158,11 +158,11 @@ nav a:hover::before, a:focus::before {
     line-height: 1.26;
     letter-spacing: 1.4px;
      color: #000;
-    -webkit-transform: translate(0%, 40%);
-    -moz-transform: translate(0%, 40%); 
-    -ms-transform: translate(0%, 40%); 
-    -o-transform: translate(0%, 40%); 
-    transform: translate(0%, 40%); 
+    -webkit-transform: translate(0%, 35%);
+    -moz-transform: translate(0%, 35%); 
+    -ms-transform: translate(0%, 35%); 
+    -o-transform: translate(0%, 35%); 
+    transform: translate(0%, 35%); 
 }
 
 .content-main p{
@@ -553,11 +553,11 @@ div.vertical-line{
     left: 50%; 
     width: 700px;
     height: 515px; 
-    -webkit-transform: translate(0%, -60%);
-    -moz-transform: translate(0%, -60%); 
-    -ms-transform: translate(0%, -60%); 
-    -o-transform: translate(0%, -60%); 
-    transform: translate(0%, -60%); 
+    -webkit-transform: translate(0%, 10%);
+    -moz-transform: translate(0%, 10%); 
+    -ms-transform: translate(0%, 10%); 
+    -o-transform: translate(0%, 10%); 
+    transform: translate(0%, 10%); 
 }
 
 .bg-landing{
