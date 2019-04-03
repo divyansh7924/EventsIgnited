@@ -1,11 +1,11 @@
 self.__precacheManifest = [
   {
-    "revision": "0a24f4e5666df939524f8f8dcaf367af",
-    "url": "/EventsIgnited/static/media/art-cat.0a24f4e5.jpg"
+    "revision": "c60d7907757b8ff4fed26f0d1b3327b0",
+    "url": "/EventsIgnited/static/media/business-cat.c60d7907.jpg"
   },
   {
-    "revision": "752c8cb95b6350515397",
-    "url": "/EventsIgnited/static/css/main.aac0edb8.chunk.css"
+    "revision": "8ee1ae5f5455b55bee5b",
+    "url": "/EventsIgnited/static/css/main.ada63d46.chunk.css"
   },
   {
     "revision": "5b7ed6f816e1388d15ec",
@@ -52,12 +52,12 @@ self.__precacheManifest = [
     "url": "/EventsIgnited/static/media/music-cat.8a5e1098.jpg"
   },
   {
-    "revision": "752c8cb95b6350515397",
-    "url": "/EventsIgnited/static/js/main.2a1fa3bb.chunk.js"
+    "revision": "0a24f4e5666df939524f8f8dcaf367af",
+    "url": "/EventsIgnited/static/media/art-cat.0a24f4e5.jpg"
   },
   {
-    "revision": "c60d7907757b8ff4fed26f0d1b3327b0",
-    "url": "/EventsIgnited/static/media/business-cat.c60d7907.jpg"
+    "revision": "8ee1ae5f5455b55bee5b",
+    "url": "/EventsIgnited/static/js/main.342ba782.chunk.js"
   },
   {
     "revision": "b8703e7d224a528456c7527250cd0d6d",
@@ -72,8 +72,16 @@ self.__precacheManifest = [
     "url": "/EventsIgnited/static/media/sports-cat.56fc76f9.jpg"
   },
   {
-    "revision": "7b4f1295cd025978ab1a26d3b7057d91",
-    "url": "/EventsIgnited/static/media/bg.7b4f1295.svg"
+    "revision": "61b29291c21e1cb6690dec6446916a4d",
+    "url": "/EventsIgnited/static/media/bg3.61b29291.svg"
+  },
+  {
+    "revision": "7498187fb8496aaac2b75eda987c4e5e",
+    "url": "/EventsIgnited/static/media/bg2.7498187f.svg"
+  },
+  {
+    "revision": "00ea300287dae0064777ca4874b0cdc2",
+    "url": "/EventsIgnited/static/media/bg.00ea3002.svg"
   },
   {
     "revision": "370e9b212844af7f365b22811c0e2b8a",
@@ -96,11 +104,11 @@ self.__precacheManifest = [
     "url": "/EventsIgnited/static/media/sunbed.13fbf8e0.png"
   },
   {
-    "revision": "9f8310ea3576d601ac49ebc3215c7a12",
-    "url": "/EventsIgnited/static/media/underline.9f8310ea.svg"
+    "revision": "63e54d5ff935805ec685e67628abda29",
+    "url": "/EventsIgnited/static/media/underline.63e54d5f.svg"
   },
   {
-    "revision": "d9416d60db27efc256b0c6ea1c61f3eb",
+    "revision": "f2bca5221f190c673540a4ec96f06701",
     "url": "/EventsIgnited/index.html"
   }
 ];
