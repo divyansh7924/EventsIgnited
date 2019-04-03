@@ -3,7 +3,7 @@
 }
 
 .container{
-  width: 75%;
+  width: 82%;
 }
 
 .App-logo {
@@ -90,7 +90,6 @@ nav a {
   letter-spacing: 1px;
   font-size: 15px;
   line-height: 16px;
-  font-weight: 1000;
   text-transform: uppercase;
   transition: color 0.1s,background-color 0.1s,padding 0.2s ease-in;
   color: #000;
@@ -389,7 +388,7 @@ padding: 45px;
   line-height: 1.18;
   letter-spacing: -0.03rem;  
   margin: 0;
-  padding-top: 150px;
+  padding-top: 45px;
 }
 
 #part2 h5{
@@ -566,6 +565,18 @@ div.vertical-line{
   background-repeat: no-repeat;
 }
 
+.bg-landing-2{
+  background: url("./assets//images/bg2.svg");
+  background-repeat: no-repeat;
+  height: 100vh;
+}
+
+.bg-landing-3{
+  background: url("./assets//images/bg3.svg");
+  background-repeat: no-repeat;
+  height: 100vh;
+}
+
 
 @keyframes App-logo-spin {
   from {
@@ -685,7 +696,6 @@ height: 350px;
   font: bold 16px sans-serif;
   position: absolute;
   padding: 55px 50px;
-  margin-top: 10%;
 
 }
 

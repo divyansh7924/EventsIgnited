@@ -89,6 +89,7 @@ class Message extends React.Component{
                     </div>
                 </div>
                 </div>
+                <div className="bg-landing-2">
                 <div className="features">
                 <h4 id="features-head">Features.</h4>
                 <div className="row">
@@ -170,9 +171,9 @@ class Message extends React.Component{
                             <h4>Sports</h4>
                             </div>
                 </div>
-            
+                </div>
                
-
+<div className="bg-landing-3">
                 <div>
                 <h4 id="about-head">About Us.</h4>
                     <div className="about-us flex-row">
@@ -203,7 +204,7 @@ class Message extends React.Component{
                     </div>
                 </div>
                 </div>
-
+                </div>
                  {/* <h4 id="category-head">Categories.</h4>
                 <div id="category-row">
                             <div className="box">
