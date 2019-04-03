@@ -4,8 +4,8 @@ self.__precacheManifest = [
     "url": "/EventsIgnited/static/media/business-cat.c60d7907.jpg"
   },
   {
-    "revision": "8ee1ae5f5455b55bee5b",
-    "url": "/EventsIgnited/static/css/main.ada63d46.chunk.css"
+    "revision": "3af777952a32986264b5",
+    "url": "/EventsIgnited/static/css/main.b93e8ae8.chunk.css"
   },
   {
     "revision": "5b7ed6f816e1388d15ec",
@@ -56,7 +56,7 @@ self.__precacheManifest = [
     "url": "/EventsIgnited/static/media/art-cat.0a24f4e5.jpg"
   },
   {
-    "revision": "8ee1ae5f5455b55bee5b",
+    "revision": "3af777952a32986264b5",
     "url": "/EventsIgnited/static/js/main.342ba782.chunk.js"
   },
   {
@@ -72,16 +72,16 @@ self.__precacheManifest = [
     "url": "/EventsIgnited/static/media/sports-cat.56fc76f9.jpg"
   },
   {
-    "revision": "61b29291c21e1cb6690dec6446916a4d",
-    "url": "/EventsIgnited/static/media/bg3.61b29291.svg"
-  },
-  {
-    "revision": "7498187fb8496aaac2b75eda987c4e5e",
-    "url": "/EventsIgnited/static/media/bg2.7498187f.svg"
+    "revision": "1d9562e3c8925c7a2b2cd3b108457dff",
+    "url": "/EventsIgnited/static/media/bg2.1d9562e3.svg"
   },
   {
     "revision": "00ea300287dae0064777ca4874b0cdc2",
     "url": "/EventsIgnited/static/media/bg.00ea3002.svg"
+  },
+  {
+    "revision": "1e3dd68beeaa4cb3ec72a2c0fe1d73a5",
+    "url": "/EventsIgnited/static/media/bg3.1e3dd68b.svg"
   },
   {
     "revision": "370e9b212844af7f365b22811c0e2b8a",
@@ -108,7 +108,7 @@ self.__precacheManifest = [
     "url": "/EventsIgnited/static/media/underline.63e54d5f.svg"
   },
   {
-    "revision": "f2bca5221f190c673540a4ec96f06701",
+    "revision": "e50dd40ca9f74f90d2645dc6a9d82032",
     "url": "/EventsIgnited/index.html"
   }
 ];

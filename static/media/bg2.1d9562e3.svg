@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1920" height="1080" viewBox="0 0 1920 1080">
+  <defs>
+    <clipPath id="clip-iPhone_X_XS_2">
+      <rect width="1920" height="1080"/>
+    </clipPath>
+  </defs>
+  <g id="iPhone_X_XS_2" data-name="iPhone X/XS – 2" clip-path="url(#clip-iPhone_X_XS_2)">
+    <rect width="1920" height="1080" fill="#fff"/>
+    <g id="Group_2" data-name="Group 2" transform="translate(-97.76 52.261)" opacity="0.5">
+      <path id="Path_2" data-name="Path 2" d="M0,0S152.859,215.143,417.215,231.481s407.154,161.35,575.145,171.463,432.384-115.138,592.755-121.733S1885.94,504.568,1931.7,510.4" transform="translate(2044.315 373.649) rotate(173)" fill="none" stroke="rgba(57,80,255,0.5)" stroke-width="3"/>
+      <path id="Path_4" data-name="Path 4" d="M0,0S101.207,136.344,248.53,194.319s292.881-14.07,450.9,30.45S975.164,354.248,1086.76,367.95s330.337-108.887,557.91-87.972,306.761,165.834,352.385,171.632" transform="translate(2037.207 323.721) rotate(173)" fill="none" stroke="#fff58c" stroke-width="3"/>
+      <path id="Path_5" data-name="Path 5" d="M-5.834,433.255S124.451,287.3,379.078,269.183,781.727,94.887,950.1,84.728s463.471,62.989,624.2,69.539S1845.722-17.147,1891.591-22.987" transform="translate(136.735 -86.238) rotate(7)" fill="none" stroke="rgba(255,57,57,0.5)" stroke-width="3"/>
+      <path id="Path_6" data-name="Path 6" d="M-4.979,397.392S128.381,317.6,275.455,259.66s299.744-11.687,457.5-56.174,275.26-129.421,386.672-143.1,290.143,78.231,517.344,57.362S1982.882-17.3,2028.431-23.092" transform="translate(65.71 -86.428) rotate(7)" fill="none" stroke="#afff8c" stroke-width="3"/>
+    </g>
+  </g>
+</svg>
