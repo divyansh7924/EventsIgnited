@@ -57,7 +57,7 @@ class Message extends React.Component{
                     <div className="App-landing-content container">
                         <div className="content-main">
                             <p>Build</p>
-                            <span class="typewrite" data-period="2000" data-type='[ "Sexy","Magnanimous", "Corporate", "Economical", "Huge","Eco Friendly","Eye Catchy"]'>
+                            <span class="typewrite" data-period="2000" data-type='[ "Magnanimous", "Corporate", "Economical", "Huge","Eco-Friendly","Eye Catchy"]'>
                                 <span class="wrap"></span>
                             </span> <br/>
                             <p>Events</p>
